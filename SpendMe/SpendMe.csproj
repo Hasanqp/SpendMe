@@ -4,6 +4,21 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
+    <Authors>Hasan</Authors>
+    <Company>qp компание</Company>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Description>Это умный и простой инструмент для отслеживания финансирования проектов.
+</Description>
+    <Copyright>Все права защищены за компанией qp</Copyright>
+    <ApplicationIcon>SpendMeLogo.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>2</WarningLevel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningLevel>2</WarningLevel>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,10 +35,69 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="SpendMeLogo.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.102.2" />
+    <PackageReference Include="FastMember" Version="1.5.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SpendMe.Core\SpendMe.Core.csproj" />
+    <ProjectReference Include="..\SpendMe.Data\SpendMe.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Gui\GuiSystemRecords\RecordsUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Gui\GuiUsers\UserLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gui\GuiUsers\AddUserForm.cs" />
+    <Compile Update="Gui\GuiUsers\UsersControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Gui\GuiIncome\AddIncomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gui\GuiIncome\IncomeUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Gui\GuiOutcome\AddOutcomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gui\GuiOutcome\OutcomeUserControl.cs" />
+    <Compile Update="Gui\GuiProjects\AddProjectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gui\GuiProjects\ProjectsUserControl.cs" />
+    <Compile Update="Gui\GuiSuppliers\AddSuppliersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gui\GuiSuppliers\SuppliersUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Gui\GuiCustomers\AddCustomersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gui\GuiCustomers\CustomersUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
   </ItemGroup>
 
@@ -32,6 +106,13 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
 
 </Project>

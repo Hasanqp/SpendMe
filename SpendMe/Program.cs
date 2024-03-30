@@ -1,3 +1,6 @@
+using Microsoft.Data.SqlClient;
+using SpendMe.Code;
+using SpendMe.Data.SqlServer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +20,9 @@ namespace SpendMe
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Main());
+            DependecyInjection.AddDependencyValues();
+            SqlCon.SqlConnection = Properties.Settings.Default.SqlServerString;
+            Application.Run(new StartForm());
         }
     }
 }

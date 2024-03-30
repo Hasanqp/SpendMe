@@ -117,12 +117,36 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="DeleteDialogCaption" xml:space="preserve">
+    <value>Удалить действие.</value>
+  </data>
+  <data name="DeleteDialogText" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить это? Данные не могут быть восстановлены.</value>
+  </data>
+  <data name="EmptyMessageCaption" xml:space="preserve">
+    <value>Нет данных.</value>
+  </data>
+  <data name="EmptyMessageText" xml:space="preserve">
+    <value>Отображение сетки данных кажется пустым, это действие невозможно выполнить.</value>
+  </data>
+  <data name="FiledReqCaption" xml:space="preserve">
+    <value>Ошибка ввода.</value>
+  </data>
+  <data name="FiledsReqText" xml:space="preserve">
+    <value>Все поля, содержащие *, являются обязательными. Введите его еще раз, Попробуйте позже</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="icons8-employee-128 px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-employee-128 px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8-home-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-home-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8_about_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-about-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_add2_32_px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-add2-32 px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8_categorize_32_px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-categorize-32 px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,11 +157,35 @@
   <data name="icons8_customers_32_px__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-customers-32 px (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icons8_database_restore_25_px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-database-restore-25 px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_data_backup_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-data-backup-25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_delete_32_px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-delete-32 px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_edit_32_px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-edit-32 px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8_help_32_px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-help-32 px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icons8_login_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-login-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8_log_out_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-log-out-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_microsoft_azure_storage_explorer_32_px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-microsoft-azure-storage-explorer-32 px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_moleskine_32_px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-moleskine-32 px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_notification_128_px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-notification-128 px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8_projects_32_px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-projects-32 px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,16 +196,68 @@
   <data name="icons8_return_purchase_32_px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-return-purchase-32 px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icons8_save_gr_22_px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-save gr-22 px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_save_red_22_px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-save red-22 px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_search_32_px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-search-32 px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8_settings_32_px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-settings-32 px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8_smart_42_px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-smart-42 px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icons8_update_CUC_32_px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-update CUC-32 px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8_users_32_px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-users-32 px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icons8_xls_export_32_px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-xls-export-32 px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Loading_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Loading_2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lockunlock_conv_200px_150px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lockunlock_conv-200px_150px.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="logo_60vyatsu_120px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo_60vyatsu 120px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Resources" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources.resx;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Resources_Designer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources.Designer.cs;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ServerErrorCaption" xml:space="preserve">
+    <value>Ошибка связи на сервере.</value>
+  </data>
+  <data name="ServerErrorText" xml:space="preserve">
+    <value>Кажется, у вас возникла ошибка при подключении к серверу, попробуйте позже или измените настройки системы.</value>
+  </data>
+  <data name="ShowReDeleteFiledCaption" xml:space="preserve">
+    <value>Удалить действие.</value>
+  </data>
+  <data name="ShowReDeleteFiledText" xml:space="preserve">
+    <value>Для чувствительности процедуры удаления необходимо выделить всю строку.</value>
+    <comment>//</comment>
+  </data>
+  <data name="SpendMeLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpendMeLogo.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpendMeLogo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpendMeLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spend_management_definition_and_best_practices" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spend-management-definition-and-best-practices.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
